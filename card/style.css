@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+.background{
+    position: absolute;
+    top: 0;right: 0;bottom: 0;left: 0;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+/* .login-form{
+    position: relative;
+    height: 404px;
+    width: 319px;
+    border-radius: 14px;
+    border-top: 1px solid rgba(255, 255, 255, .2);
+    border-left: 1px solid rgba(255, 255, 255, .2);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, .1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.sign-in-text{
+    position: absolute;
+    margin-top: 28px;
+    font-size: 24px;
+    color: rgba(255, 255, 255, .47);
+    font-weight: 900;
+    text-align: center;
+    width: 100%;
+}
+
+.input--glass{
+    font-weight: lighter;
+    background-color: rgba(255, 255, 255, .2);
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, .2);
+    border-left: 1px solid rgba(255, 255, 255, .2);
+    border-radius: 14px;
+    outline: none;
+    width: 241px;
+    height: 43px;
+    padding: 17px;
+}
+.input--glass::placeholder{
+    color: black;
+}
+
+.email{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 119px;
+}
+.password{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 180px;
+}
+
+.button--glass{
+    font-weight: bolder;
+    background-color: rgba(255, 255, 255, .3);
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, .2);
+    border-left: 1px solid rgba(255, 255, 255, .2);
+    border-radius: 14px;
+    outline: none;
+    width: 241px;
+    height: 43px;
+    cursor: pointer;
+    transition: background-color ease 200ms;
+}
+.button--glass:hover{
+    background-color: rgba(255, 255, 255, .4);
+}
+
+.login-button{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 288px;
+}
+
+.account-text{
+    position: absolute;
+    top: 349px;
+    left: 39px;
+    font-size: 15px;
+}
+
+.register-link{
+    font-weight: bolder;
+    color: rgba(255, 255, 255, .47);
+    text-decoration: none;
+} */
